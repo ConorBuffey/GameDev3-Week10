@@ -645,3 +645,200 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 560.864422 seconds.
+  path: Assets/_Scripts/Managers/AudioManager.cs
+  artifactKey: Guid(69b3d6c30faff7f498c670531efc11c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/AudioManager.cs using Guid(69b3d6c30faff7f498c670531efc11c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3380b8660537d3172cd544bb3a1198f') in 0.003720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 701.120912 seconds.
+  path: Assets/_Scripts/Managers/AudioManager.cs
+  artifactKey: Guid(69b3d6c30faff7f498c670531efc11c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/AudioManager.cs using Guid(69b3d6c30faff7f498c670531efc11c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af94cf6c4751b3b9efcbe0233df74569') in 0.000782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.145149 seconds.
+  path: Assets/_Scripts/Managers/AudioManager.cs
+  artifactKey: Guid(69b3d6c30faff7f498c670531efc11c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/AudioManager.cs using Guid(69b3d6c30faff7f498c670531efc11c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9539ce5d68b00af2665fce98f38113') in 0.000502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 37.456618 seconds.
+  path: Assets/_Scripts/Managers/AudioManager.cs
+  artifactKey: Guid(69b3d6c30faff7f498c670531efc11c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/AudioManager.cs using Guid(69b3d6c30faff7f498c670531efc11c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7b0712ba97103f4af910eb13b5e251') in 0.000541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 103.878456 seconds.
+  path: Assets/_Scripts/Managers/AudioManager.cs
+  artifactKey: Guid(69b3d6c30faff7f498c670531efc11c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/AudioManager.cs using Guid(69b3d6c30faff7f498c670531efc11c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4556bdcfe818752ca38deebb21fffec3') in 0.000669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.621124 seconds.
+  path: Assets/_Scripts/Managers/AudioManager.cs
+  artifactKey: Guid(69b3d6c30faff7f498c670531efc11c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/AudioManager.cs using Guid(69b3d6c30faff7f498c670531efc11c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2e7a6e814ea672e2c8ef8e936ed601') in 0.000596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 357.443499 seconds.
+  path: Assets/_Scripts/Managers/ObserverPattern
+  artifactKey: Guid(c617c55870bacc14486c2d19cad3c072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/ObserverPattern using Guid(c617c55870bacc14486c2d19cad3c072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31269ea5be2e7f2ea154819a1d21c11') in 0.000559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.729357 seconds.
+  path: Assets/_Scripts/Managers/ObserverPattern/Events
+  artifactKey: Guid(8811f629c54b1f14f8d6db2485d38158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/ObserverPattern/Events using Guid(8811f629c54b1f14f8d6db2485d38158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac34c673f641d93029c3ab0d74e8acd') in 0.000529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.096240 seconds.
+  path: Assets/_Scripts/Managers/ObserverPattern/Events/GameOver.asset
+  artifactKey: Guid(b98338abbbeb7a242a0761ade08d9771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/ObserverPattern/Events/GameOver.asset using Guid(b98338abbbeb7a242a0761ade08d9771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d734f0ba20dd211cab46f41042871c') in 0.007755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.904223 seconds.
+  path: Assets/_Scripts/Managers/ObserverPattern/GameEvent.cs
+  artifactKey: Guid(079d0a8a9d297164496a9ed8cdbdb797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/ObserverPattern/GameEvent.cs using Guid(079d0a8a9d297164496a9ed8cdbdb797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc80d5198b809434116ce4f306bf050a') in 0.000560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.546336 seconds.
+  path: Assets/_Scripts/Managers/ObserverPattern/GameEventListener.cs
+  artifactKey: Guid(85b156b310ef7874480e7bf7c59e3dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/ObserverPattern/GameEventListener.cs using Guid(85b156b310ef7874480e7bf7c59e3dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20737ed6d126b918fd53034ba7dac1ba') in 0.000526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 50.174858 seconds.
+  path: Assets/_Scripts/Managers/SoundSO.cs
+  artifactKey: Guid(6d7cfbf233104764380553d461809db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/SoundSO.cs using Guid(6d7cfbf233104764380553d461809db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6951da15f0f1a93770733b74c5f88baf') in 0.000729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 182.560950 seconds.
+  path: Assets/_Scripts/Managers/SoundSO.cs
+  artifactKey: Guid(6d7cfbf233104764380553d461809db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/SoundSO.cs using Guid(6d7cfbf233104764380553d461809db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93811b772656308dbe7d704fd1517aa8') in 0.000590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 40.471305 seconds.
+  path: Assets/_Scripts/Managers/SoundData
+  artifactKey: Guid(88ec9de72f519c847a1a8b5a1ed87cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/SoundData using Guid(88ec9de72f519c847a1a8b5a1ed87cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e231ad4e62ba139bf0befc966305a2c4') in 0.000535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.318764 seconds.
+  path: Assets/_Scripts/Managers/SoundData/BadPickup.asset
+  artifactKey: Guid(913308419ddafce47af84533d49ce81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/SoundData/BadPickup.asset using Guid(913308419ddafce47af84533d49ce81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4711ae23fe1077226bdbeb055ebfae') in 0.001012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.592310 seconds.
+  path: Assets/_Scripts/Managers/SoundData/DashSound.asset
+  artifactKey: Guid(edf349cc71bb34c44b3a4ce7ae32db43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/SoundData/DashSound.asset using Guid(edf349cc71bb34c44b3a4ce7ae32db43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad58cca6614bf87d8e8c2120a034c37') in 0.000993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.922118 seconds.
+  path: Assets/_Scripts/Managers/SoundData/GoodPickup.asset
+  artifactKey: Guid(8d8d83107d26deb43ba1ac19621d3c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/SoundData/GoodPickup.asset using Guid(8d8d83107d26deb43ba1ac19621d3c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13358abfc06d4cd90e101f2f7d390a21') in 0.001163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.878398 seconds.
+  path: Assets/_Scripts/Managers/SoundData/LifePickup.asset
+  artifactKey: Guid(26b00de2a7e50814bbd3959914786fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/SoundData/LifePickup.asset using Guid(26b00de2a7e50814bbd3959914786fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a606ee8c1aa5020d96a4ace8cf720d13') in 0.001021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 84.322321 seconds.
+  path: Assets/_Scripts/Managers/SoundData/BadPickupSound.asset
+  artifactKey: Guid(913308419ddafce47af84533d49ce81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/SoundData/BadPickupSound.asset using Guid(913308419ddafce47af84533d49ce81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100302fc0e23146e6a27ebc2168c085e') in 0.001073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.781805 seconds.
+  path: Assets/_Scripts/Managers/SoundData/GoodPickupSound.asset
+  artifactKey: Guid(8d8d83107d26deb43ba1ac19621d3c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/SoundData/GoodPickupSound.asset using Guid(8d8d83107d26deb43ba1ac19621d3c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bddc0d01b660780798e7694abf1e434e') in 0.001019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.987047 seconds.
+  path: Assets/_Scripts/Managers/SoundData/LifePickupSound.asset
+  artifactKey: Guid(26b00de2a7e50814bbd3959914786fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/SoundData/LifePickupSound.asset using Guid(26b00de2a7e50814bbd3959914786fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789a7d4697464da9ac9215dae2c3cdeb') in 0.001061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 393.073059 seconds.
+  path: Assets/Audio/386012__.wav
+  artifactKey: Guid(2279d47c7d9817246ae81b72e8ee0700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/386012__.wav using Guid(2279d47c7d9817246ae81b72e8ee0700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16419a6961c1c4fe37262a2d0b3ae9be') in 0.099429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Audio/item-pickup.ogg
+  artifactKey: Guid(ea71a12d0075eab4e99db87a7236ffe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/item-pickup.ogg using Guid(ea71a12d0075eab4e99db87a7236ffe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596d6e76b360b8c5f2db9c1e8441338b') in 0.016459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Audio/click-sparkle.mp3
+  artifactKey: Guid(a0e399f2568bdf442b51bdf5ff694e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/click-sparkle.mp3 using Guid(a0e399f2568bdf442b51bdf5ff694e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5cf1b31cebf059853198d8d6d8bfc2') in 0.015198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
