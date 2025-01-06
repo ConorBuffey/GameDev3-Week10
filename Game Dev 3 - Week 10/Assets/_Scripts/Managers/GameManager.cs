@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using GameDevWithMarco.Managers;
 
 public class GameManager : Singleton<GameManager>
 {
