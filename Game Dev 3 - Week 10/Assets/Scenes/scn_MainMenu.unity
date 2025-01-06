@@ -528,10 +528,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundMusic: {fileID: 8300000, guid: d2df8f81f708bcd45a56e357d22e396b, type: 3}
-  goodPickupSound: {fileID: 8300000, guid: a0e399f2568bdf442b51bdf5ff694e38, type: 3}
-  badPickupSound: {fileID: 8300000, guid: 2279d47c7d9817246ae81b72e8ee0700, type: 3}
-  dashSound: {fileID: 8300000, guid: 88ffcefd94d1d5742aaa3d6d047bce3c, type: 3}
-  lifeSound: {fileID: 8300000, guid: ea71a12d0075eab4e99db87a7236ffe6, type: 3}
+  goodPickupSoundData: {fileID: 11400000, guid: 8d8d83107d26deb43ba1ac19621d3c44,
+    type: 2}
+  badPickupSoundData: {fileID: 11400000, guid: 913308419ddafce47af84533d49ce81e, type: 2}
+  dashSoundData: {fileID: 11400000, guid: edf349cc71bb34c44b3a4ce7ae32db43, type: 2}
+  lifeSoundData: {fileID: 11400000, guid: 26b00de2a7e50814bbd3959914786fb5, type: 2}
   audioSource_Music: {fileID: 605593228}
   audioSource_Sounds: {fileID: 605593231}
 --- !u!82 &605593231
@@ -1353,6 +1354,58 @@ LightingSettings:
   m_PVRTiledBaking: 0
   m_NumRaysToShootPerTexel: -1
   m_RespectSceneVisibilityWhenBakingGI: 0
+--- !u!1 &1771152646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1771152648}
+  - component: {fileID: 1771152647}
+  m_Layer: 0
+  m_Name: Pool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1771152647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771152646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115a78b106df11542b4b630759aa3ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goodPackagePoolData: {fileID: 11400000, guid: 2c2562fddd32e8e438e642728d43dfc8,
+    type: 2}
+  badPackagePoolData: {fileID: 11400000, guid: 53b1447a5a80eee4195ee4a0f3829deb, type: 2}
+  lifePackagePoolData: {fileID: 11400000, guid: 54fce11d9188b834e8ae1cf8406a2320,
+    type: 2}
+  goodPool: []
+  badPool: []
+  lifePool: []
+--- !u!4 &1771152648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771152646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.0072894, y: 6.7209663, z: 0.2736957}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1862131529
 GameObject:
   m_ObjectHideFlags: 0
