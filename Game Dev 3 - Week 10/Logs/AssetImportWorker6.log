@@ -345,3 +345,240 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.552 seconds
+Refreshing native plugins compatible for Editor in 2.05 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.665 seconds
+Domain Reload Profiling: 1214ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (195ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (187ms)
+				TypeCache.ScanAssembly (176ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (666ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (280ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (190ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1639 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (1.3 MB). Loaded Objects now: 2158.
+Memory consumption went from 90.0 MB to 88.7 MB.
+Total: 3.239100 ms (FindLiveObjects: 0.172100 ms CreateObjectMapping: 0.039400 ms MarkObjects: 2.649400 ms  DeleteObjects: 0.376900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2354.046642 seconds.
+  path: Assets/_Scripts/Managers/ObjectPooling
+  artifactKey: Guid(ce3732707d0488e44b2702c165421f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/ObjectPooling using Guid(ce3732707d0488e44b2702c165421f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f68a64e62102151a631660902e7bfb2') in 0.005881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 51.861645 seconds.
+  path: Assets/_Scripts/Managers/ObjectPooling/BadPickup.asset
+  artifactKey: Guid(53b1447a5a80eee4195ee4a0f3829deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/ObjectPooling/BadPickup.asset using Guid(53b1447a5a80eee4195ee4a0f3829deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c1047dbf47e8c0137dc267bc73683a') in 0.007238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.169364 seconds.
+  path: Assets/_Scripts/Managers/ObjectPooling/GoodPickup.asset
+  artifactKey: Guid(2c2562fddd32e8e438e642728d43dfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/ObjectPooling/GoodPickup.asset using Guid(2c2562fddd32e8e438e642728d43dfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04dbc6edf50a853c142b21a045cb120d') in 0.001182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.558564 seconds.
+  path: Assets/_Scripts/Managers/ObjectPooling/LifePickup.asset
+  artifactKey: Guid(54fce11d9188b834e8ae1cf8406a2320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/ObjectPooling/LifePickup.asset using Guid(54fce11d9188b834e8ae1cf8406a2320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f46b3a0dc35a884edba8e74f22f2eb') in 0.001026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 28.887558 seconds.
+  path: Assets/_Scripts/Managers/ObjectPooling/BadPackagesPool.asset
+  artifactKey: Guid(53b1447a5a80eee4195ee4a0f3829deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/ObjectPooling/BadPackagesPool.asset using Guid(53b1447a5a80eee4195ee4a0f3829deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770b6952fbd53cc4cbf8c81281e60e7f') in 0.001073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.526656 seconds.
+  path: Assets/_Scripts/Managers/ObjectPooling/GoodPackagePool.asset
+  artifactKey: Guid(2c2562fddd32e8e438e642728d43dfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/ObjectPooling/GoodPackagePool.asset using Guid(2c2562fddd32e8e438e642728d43dfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1b19eda79617354934a57be5b0ce44') in 0.001122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.198039 seconds.
+  path: Assets/_Scripts/Managers/ObjectPooling/LifePackagesPool.asset
+  artifactKey: Guid(54fce11d9188b834e8ae1cf8406a2320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/ObjectPooling/LifePackagesPool.asset using Guid(54fce11d9188b834e8ae1cf8406a2320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3fa7d376137b8c6c493babf998f398') in 0.001114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 56.426655 seconds.
+  path: Assets/Prefabs/BadPickup.prefab
+  artifactKey: Guid(b7f15cca2ffc11b44b41e31f49c2485a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BadPickup.prefab using Guid(b7f15cca2ffc11b44b41e31f49c2485a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf838b450758c9a362d142b2ad009cd2') in 0.117948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefabs/GoodPickup.prefab
+  artifactKey: Guid(fd5f7ca403eb6d843bae5ffab6f76cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GoodPickup.prefab using Guid(fd5f7ca403eb6d843bae5ffab6f76cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba55a3aa7fd62592b061a077c58b9f4f') in 0.019853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/man_Spawners.prefab
+  artifactKey: Guid(e8134171de3afbe43a802b2688cfd135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/man_Spawners.prefab using Guid(e8134171de3afbe43a802b2688cfd135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a015c6f7d150d9e1e087cac9f212cc6') in 0.006837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/LifePickupEcho.prefab
+  artifactKey: Guid(85d88ade064b4a740a2f7e47ee889def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LifePickupEcho.prefab using Guid(85d88ade064b4a740a2f7e47ee889def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73885a90f377a47feb4dd29a642feac') in 0.018876 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/sprt_boxes_1.prefab
+  artifactKey: Guid(63e2237b363ee244f8ed3384a6a0b69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sprt_boxes_1.prefab using Guid(63e2237b363ee244f8ed3384a6a0b69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc35b86bf8c2d4ecc70094d3f759f97d') in 0.015718 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/txt_SubtractPoints.prefab
+  artifactKey: Guid(3ac2798c00cfd4c449d8b09d57692a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/txt_SubtractPoints.prefab using Guid(3ac2798c00cfd4c449d8b09d57692a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca62c453f9529a6f647903cdc716872f') in 0.006698 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/sprt_boxes_2.prefab
+  artifactKey: Guid(56536f445ca2d8346b6fde634b7e32e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sprt_boxes_2.prefab using Guid(56536f445ca2d8346b6fde634b7e32e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b642b0d3d3ac23df63a4e0f72d137f9f') in 0.015953 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/txt_LoseOneLife.prefab
+  artifactKey: Guid(4dcb68ed43bee53498e027874859a3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/txt_LoseOneLife.prefab using Guid(4dcb68ed43bee53498e027874859a3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f47bb182541a14b92b7bec5799532b') in 0.003577 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/man_SceneManager.prefab
+  artifactKey: Guid(f799e6983a8838349ac68bafede4d8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/man_SceneManager.prefab using Guid(f799e6983a8838349ac68bafede4d8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1842250be5266cf7ebd58b598799a9') in 0.002912 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/ptc_BadBox.prefab
+  artifactKey: Guid(c23fb37b84bafc54fa367c0623319765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ptc_BadBox.prefab using Guid(c23fb37b84bafc54fa367c0623319765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78fe3256c5fe73984029c6cc26ef9e1') in 0.022464 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/GoodPickupEcho.prefab
+  artifactKey: Guid(889a9b1c26ccef44a92538d4113a6375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GoodPickupEcho.prefab using Guid(889a9b1c26ccef44a92538d4113a6375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1f07928d74f5a5dbf96ed4ccf92a19') in 0.018173 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/CalibrationScene/Model/SamplePot.fbx
+  artifactKey: Guid(ca5eceb85768ac841bd2c12921c1cef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/CalibrationScene/Model/SamplePot.fbx using Guid(ca5eceb85768ac841bd2c12921c1cef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af62de0ecdf1a5fe8e3d59ebcb672017') in 0.632079 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
