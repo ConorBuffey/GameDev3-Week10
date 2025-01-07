@@ -4,6 +4,7 @@ using UnityEngine;
 namespace GameDevWithMarco.DesignPattern
 {
     [CreateAssetMenu(fileName = "Pool", menuName = "Scriptable Objects/Pool")]
+
     public class PoolData : ScriptableObject
     {
         //To set the size of the pool

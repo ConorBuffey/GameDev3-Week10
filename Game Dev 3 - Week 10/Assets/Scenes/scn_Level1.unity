@@ -454,6 +454,8 @@ GameObject:
   - component: {fileID: 519420033}
   - component: {fileID: 519420030}
   - component: {fileID: 519420034}
+  - component: {fileID: 519420036}
+  - component: {fileID: 519420035}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -586,6 +588,62 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _intensity: 0
   _shader: {fileID: 4800000, guid: ba40dc630e1d9417cb9ea22586ece1e1, type: 3}
+--- !u!114 &519420035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b156b310ef7874480e7bf7c59e3dc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 4d27c3b65c1477c49a9d23b7e9cb4aa7, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameDevWithMarco.VFX.Ripple, Assembly-CSharp
+        m_MethodName: RippleReaction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &519420036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b156b310ef7874480e7bf7c59e3dc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 414dfd85e5e35024cb5e57714b7d89ba, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameDevWithMarco.VFX.Ripple, Assembly-CSharp
+        m_MethodName: RippleReaction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &519420339 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 940970584474753463, guid: e8134171de3afbe43a802b2688cfd135,
@@ -764,7 +822,6 @@ MonoBehaviour:
   echo: {fileID: 8590924988553098758, guid: eeb34bdb08895e24daef2e3adb64adc5, type: 3}
   dash: {fileID: 691154090}
   instanceLife: 2
-  fallen: {fileID: 1935659311}
 --- !u!1 &916357126
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,6 +989,58 @@ Transform:
   m_Father: {fileID: 2066958914}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &959637795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 959637796}
+  - component: {fileID: 959637797}
+  m_Layer: 0
+  m_Name: Pool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &959637796
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959637795}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.0072894, y: 6.7209663, z: 0.2736957}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &959637797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959637795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115a78b106df11542b4b630759aa3ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goodPackagePoolData: {fileID: 11400000, guid: 2c2562fddd32e8e438e642728d43dfc8,
+    type: 2}
+  badPackagePoolData: {fileID: 11400000, guid: 53b1447a5a80eee4195ee4a0f3829deb, type: 2}
+  lifePackagePoolData: {fileID: 11400000, guid: 54fce11d9188b834e8ae1cf8406a2320,
+    type: 2}
+  goodPool: []
+  badPool: []
+  lifePool: []
 --- !u!1 &1010690947
 GameObject:
   m_ObjectHideFlags: 0
@@ -1459,18 +1568,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1935659311 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6748926940924965607, guid: e8134171de3afbe43a802b2688cfd135,
-    type: 3}
-  m_PrefabInstance: {fileID: 6748926941505527754}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b8b69daee1415646a65b4bddbc6da51, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2066958913
 GameObject:
   m_ObjectHideFlags: 0
@@ -1909,8 +2006,126 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3312338274814803727, guid: a2a62b328e57109428c54a81863b1b9e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3312338274757879176}
+    - targetCorrespondingSourceObject: {fileID: 3312338274814803727, guid: a2a62b328e57109428c54a81863b1b9e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3312338274757879175}
   m_SourcePrefab: {fileID: 100100000, guid: a2a62b328e57109428c54a81863b1b9e, type: 3}
+--- !u!1 &3312338274757879173 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3312338274814803727, guid: a2a62b328e57109428c54a81863b1b9e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3312338274757879172}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3312338274757879174 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3312338274814803720, guid: a2a62b328e57109428c54a81863b1b9e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3312338274757879172}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3312338274757879173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af1d5ba75537de249b6640f657aeb10d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3312338274757879175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3312338274757879173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b156b310ef7874480e7bf7c59e3dc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 837565d052d57ed4089d52aab03d346c, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3312338274757879174}
+        m_TargetAssemblyTypeName: GameDevWithMarco.Managers.VfxManager, Assembly-CSharp
+        m_MethodName: CamShake
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3312338274757879174}
+        m_TargetAssemblyTypeName: GameDevWithMarco.Managers.VfxManager, Assembly-CSharp
+        m_MethodName: BadPickupParticles
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3312338274757879174}
+        m_TargetAssemblyTypeName: GameDevWithMarco.Managers.VfxManager, Assembly-CSharp
+        m_MethodName: SubtractPointsPromptMethod
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3312338274757879176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3312338274757879173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b156b310ef7874480e7bf7c59e3dc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 414dfd85e5e35024cb5e57714b7d89ba, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3312338274757879174}
+        m_TargetAssemblyTypeName: GameDevWithMarco.Managers.VfxManager, Assembly-CSharp
+        m_MethodName: GoodPickupParticles
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3312338274757879174}
+        m_TargetAssemblyTypeName: GameDevWithMarco.Managers.VfxManager, Assembly-CSharp
+        m_MethodName: AddPointsPromptMethod
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &5167641514561410361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2276,6 +2491,16 @@ PrefabInstance:
       propertyPath: spawners.Array.data[10]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6748926940924965607, guid: e8134171de3afbe43a802b2688cfd135,
+        type: 3}
+      propertyPath: minimum_GoodPackagePercentage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6748926940924965607, guid: e8134171de3afbe43a802b2688cfd135,
+        type: 3}
+      propertyPath: maximum_badPackageDropPercentage
+      value: 75
+      objectReference: {fileID: 0}
     - target: {fileID: 6748926941214735715, guid: e8134171de3afbe43a802b2688cfd135,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2309,7 +2534,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6748926940924965601, guid: e8134171de3afbe43a802b2688cfd135,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6748926941505527760}
+    - targetCorrespondingSourceObject: {fileID: 6748926940924965601, guid: e8134171de3afbe43a802b2688cfd135,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6748926941505527759}
   m_SourcePrefab: {fileID: 100100000, guid: e8134171de3afbe43a802b2688cfd135, type: 3}
 --- !u!1 &6748926941505527755 stripped
 GameObject:
@@ -2323,6 +2556,81 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 6748926941505527754}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6748926941505527757 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6748926940924965601, guid: e8134171de3afbe43a802b2688cfd135,
+    type: 3}
+  m_PrefabInstance: {fileID: 6748926941505527754}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6748926941505527758 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6748926940924965607, guid: e8134171de3afbe43a802b2688cfd135,
+    type: 3}
+  m_PrefabInstance: {fileID: 6748926941505527754}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6748926941505527757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b8b69daee1415646a65b4bddbc6da51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6748926941505527759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6748926941505527757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b156b310ef7874480e7bf7c59e3dc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 837565d052d57ed4089d52aab03d346c, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6748926941505527758}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6748926941505527760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6748926941505527757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b156b310ef7874480e7bf7c59e3dc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 414dfd85e5e35024cb5e57714b7d89ba, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6748926941505527758}
+        m_TargetAssemblyTypeName: GameDevWithMarco.Packages.FallenObjectsSpawner,
+          Assembly-CSharp
+        m_MethodName: GrowBadPercentage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &7823425275215585385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2331,6 +2639,24 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2342553309369537330, guid: fcc8838312df518479b1bc21e6db18a6,
+        type: 3}
+      propertyPath: badPackageCollected
+      value: 
+      objectReference: {fileID: 11400000, guid: 837565d052d57ed4089d52aab03d346c,
+        type: 2}
+    - target: {fileID: -2342553309369537330, guid: fcc8838312df518479b1bc21e6db18a6,
+        type: 3}
+      propertyPath: goodPackageCollected
+      value: 
+      objectReference: {fileID: 11400000, guid: 414dfd85e5e35024cb5e57714b7d89ba,
+        type: 2}
+    - target: {fileID: -2342553309369537330, guid: fcc8838312df518479b1bc21e6db18a6,
+        type: 3}
+      propertyPath: lifePackageCollected
+      value: 
+      objectReference: {fileID: 11400000, guid: 4d27c3b65c1477c49a9d23b7e9cb4aa7,
+        type: 2}
     - target: {fileID: 651593284569545024, guid: fcc8838312df518479b1bc21e6db18a6,
         type: 3}
       propertyPath: m_Name

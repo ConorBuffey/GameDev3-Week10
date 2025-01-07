@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: abbb902acad78124fb121bbd64909411, type: 3}
-  m_Name: GoodPickupSound
+  m_Name: GoodPickup
   m_EditorClassIdentifier: 
-  minPitchValue: 0
-  maxPitchValue: 0
-  clipToUse: {fileID: 0}
-  soundVolume: 0
+  minPitchValue: 0.9
+  maxPitchValue: 1.1
+  clipToUse: {fileID: 8300000, guid: a0e399f2568bdf442b51bdf5ff694e38, type: 3}
+  soundVolume: 2

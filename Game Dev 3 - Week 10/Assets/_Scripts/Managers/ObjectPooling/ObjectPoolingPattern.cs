@@ -28,12 +28,7 @@ namespace GameDevWithMarco.DesignPattern
             FillThePool(badPackagePoolData, badPool);
             FillThePool(lifePackagePoolData, lifePool);
         }
-
-        // Start is called before the first frame update
-        private void Start()
-        {
- 
-        }       
+  
      
 
         private void FillThePool(PoolData poolData,List<GameObject> targetPoolContainer)
@@ -64,7 +59,7 @@ namespace GameDevWithMarco.DesignPattern
         public GameObject GetPoolItem(TypeOfPool typeOfPoolToUse)
         {
             //To store the local pool
-            List<GameObject> poolToUse = new List<GameObject>();
+            List<GameObject> poolToUse = new();
 
             switch (typeOfPoolToUse)
             {
@@ -83,7 +78,7 @@ namespace GameDevWithMarco.DesignPattern
             for (int i = 0; itemInPoolCount > 0; i++)
             {
                 //Looks for the first item that is not active
-                if (!poolToUse[i].activeSelf)
+                if (!poolToUse[i].activeInHierarchy)
                 {
                     //activates it
                     poolToUse[i].SetActive(true);

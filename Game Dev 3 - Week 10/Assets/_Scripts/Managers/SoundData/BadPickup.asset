@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c983ca6f8d9a5dd42bba0da1c00bcbbd, type: 3}
-  m_Name: LifePackagesPool
+  m_Script: {fileID: 11500000, guid: abbb902acad78124fb121bbd64909411, type: 3}
+  m_Name: BadPickup
   m_EditorClassIdentifier: 
-  poolAmount: 50
-  poolItem: {fileID: 1672529824157174036, guid: ce14d5e697e1c7e40ab54f2a57253a55,
-    type: 3}
+  minPitchValue: 0.9
+  maxPitchValue: 1.1
+  clipToUse: {fileID: 8300000, guid: 2279d47c7d9817246ae81b72e8ee0700, type: 3}
+  soundVolume: 0.8

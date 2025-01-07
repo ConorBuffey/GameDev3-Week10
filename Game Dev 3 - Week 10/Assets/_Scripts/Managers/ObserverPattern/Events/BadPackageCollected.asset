@@ -9,10 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abbb902acad78124fb121bbd64909411, type: 3}
-  m_Name: DashSound
+  m_Script: {fileID: 11500000, guid: 079d0a8a9d297164496a9ed8cdbdb797, type: 3}
+  m_Name: BadPackageCollected
   m_EditorClassIdentifier: 
-  minPitchValue: 0
-  maxPitchValue: 0
-  clipToUse: {fileID: 0}
-  soundVolume: 0

@@ -104,6 +104,11 @@ public class GameManager : Singleton<GameManager>
         }
     }
 
+    public void LifePackLogic()
+    {
+        lives++;
+    }
+
     public void RestartGame()
     {
         score = 0;
